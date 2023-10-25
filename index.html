@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manga~Zone</title>
+    <link rel="shortcut icon" href="2.2red.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="1Style.css">
+    <script src="1script.js"></script>
+    <style>
+        td,th{
+            background-color: aquamarine;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+    <style>
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        background-image: url('bcg.gif'); /* Replace with the path to your image */
+        background-size: cover; /* Adjust the image size to cover the body */
+        opacity: 0.7; /* Set the desired opacity value for the background image */
+        z-index: -1;
+    }
+    </style>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <h3>WELCOME TO :</h3>
+    <h1 style="background-color: palevioletred;color: wheat;display: inline">MANGA~ZONE</h1>
+    <br>
+    <img src="2.1logo.webp" alt="Logo">
+    <h2 style="color: blueviolet;">Read to your heart's content</h2>
+    <a href="https://mangakakalot.com/">reference site</a>
+    <br>
+    
+    <a href="2MangaSiteProfile.html">Profile</a>
+    <br>
+    <br>
+    CATEGORIES
+    <ul>
+        <li>action</li>
+        <li>adventure</li>
+        <li>comedy</li>
+        <li>horror</li>
+    </ul>
+    <form>
+        <label for="ddm1">Select your genre :</label>
+        <select name="Categories" id="ddm1"> 
+            <!-- multiple laga do to more than one categories select kr paaoge -->
+            <option value="Action">Action</option>
+            <option value="Adventure">Adventure</option>
+            <option value="Comedy">Comedy</option>
+            <option value="Horror">Horror</option>
+        </select>
+    </form>
+    <br>
+    <table border="2">
+        <thead>
+            <th style="background-color: yellowgreen;">Sr. no.</th>
+            <th style="background-color: yellowgreen;">Top action</th>
+            <th style="background-color: yellowgreen;">Top adventure</th>
+            <th style="background-color: yellowgreen;">Top comedy</th>
+            <th style="background-color: yellowgreen;">Top horror</th>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>Solo Leveling</td>
+            <td>One Piece</td>
+            <td>Nan Hao & Sheng</td>
+            <td>Tales of Unusual</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Hardcore Leveling Warrior</td>
+            <td>Legend of the Northern Blade</td>
+            <td>Gintama</td>
+            <td>Dragon Head</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>The God of High School</td>
+            <td>Vinland Saga</td>
+            <td>One-Punch Man</td>
+            <td>The Promised Neverland</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>One-Punch Man</td>
+            <td>Tower of God</td>
+            <td>Grand Blue</td>
+            <td>Gantz</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Dragon Ball Z</td>
+            <td>Kingdom</td>
+            <td>Slam Dunk</td>
+            <td>Dorohedoro</td>
+        </tr>
+    </tbody>
+    </table>
+    <br>
+    <form>
+        
+        <fieldset>
+            <legend>If You Love to Visit Us Frequently</legend>
+            <br>
+            <label for="email">Email ID :</label>
+            <input type="text" id="email" placeholder="example@gmail.com">
+            <br/>
+            <br/>
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Abcd@1234">
+            <br/>
+            <br/>
+            <label for="dateselector">Date of Birth :</label>
+            <input type="date" id="dateselector">
+            <br/>
+            <br/>
+            Gender :
+            <label for="rd1">Male:</label>
+            <input type="radio" name="hehe" id="rd1">
+            <label for="rd2">Female:</label>
+            <input type="radio" name="hehe" id="rd2">
+            <label for="rd3">Other:</label>
+            <input type="radio" name="hehe" id="rd3">
+            <br/>
+            <br/>
+            <input type="submit" value="Submit">
+            <br>
+            <br>
+            <label for="ta1">Dump your Suggestions :</label>
+            <br>
+            <textarea name="Dump your Suggestions" id="ta1" cols="70" rows="10" placeholder="Enter Text Here"></textarea>
+        </fieldset>
+    </form>
+</body>
+</html>
